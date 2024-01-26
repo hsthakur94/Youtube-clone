@@ -1,0 +1,4 @@
+install es7 snippets extension to write react code in short form
+now to create react project use command = create-react-app project-name
+use firebase
+to import icons in react use - material-ui ==> install material ui then install material-icon in the project.

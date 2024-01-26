@@ -1,0 +1,51 @@
+.searchPage{
+    flex: 0.85;
+    /* padding: 20px 20px; */
+    /* border: 1px solid  black; */
+    margin-left: 30px;
+}
+
+.searchPage__filter{
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: x-small !important;
+}
+
+.searchPage__filter > h2{
+    margin-left: 10px;
+}
+.searchPage > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin: 10px 0 10px 0;
+}
+.recommendedVideos__headerTxt{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.recommendedVideos__headerTxt > p{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.748);
+    background-color: rgba(211, 211, 211, 0.334);
+    padding: 6px 9px;
+    margin-right: 15px;
+    border-radius: 6px;
+}
+.recommendedVideos__headerTxt > p:hover{
+    transition: ease-in-out 0.4s;
+    background-color: rgba(128, 128, 128, 0.373) ;
+    cursor: pointer;
+}
+.recommendedVideos__headerTxt > .all{
+    background-color: black;
+    color: white;
+}
+.recommendedVideos__headerTxt > .all:hover{
+    background-color: black;
+    color: white;
+}

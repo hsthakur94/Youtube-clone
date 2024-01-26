@@ -1,0 +1,16 @@
+.sidebar{
+    flex: 0.15;
+    margin: 0 20px 0 20px;
+    justify-content: center;
+}
+@media screen and (max-width: 750px) {
+    .sidebar {
+        display: none;
+    }
+}
+.sidebar > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin: 10px 0 10px 0;
+}
